@@ -1,0 +1,706 @@
+<!--web design is offered by easy tutorial youtube channel.developed by me.
+
+subscribe his easy tutorial channel.he bring many quality web development content 
+
+plz check all hover effect-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edufort website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+<!--header-->  
+  <header id="h">
+      <div id="header_div">
+         <img src="https://dl.dropbox.com/s/7rgu6iaay1qws6w/logo.png?dl=0" alt="logo">
+<!--navigation-->  
+            
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Course</li>
+            <li>Blog</li>
+            <li>Contact</li>
+            <i class="fa fa-align-justify" id="align-justify" onclick="kaatu()";></i>
+          </ul>
+        </nav>
+      </div>
+<!--navigation-toggle-->
+<div id="toggle">
+  <ul>
+    <i class="fa fa-times" id="cut" onclick="muudu()"></i>
+    <li>Home</li>
+    <li>About</li>
+    <li>Course</li>
+    <li>Blog</li>
+    <li>Contact</li>
+  </ul>
+</div>
+
+<!--background image-->
+    <div id="image">
+<!--text inside image-->
+       <div id="o">
+          <h1>World's Biggest University</h1> 
+          <p>Making website is now one of the easiest thing in the world.you just need to learn HTML,CSS,JAVASCRIPT and you are good to go</p>
+          <button><span id="first-span"></span>Visit Us to Know More<span></span> </button>
+      </div>
+    </div>
+  </header>
+
+<!--courses section-->
+<section id="courses">
+  <div id="courses-div">
+     <div id="head">
+       <h1>Courses We offer</h1>
+       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+     </div>
+<!--boxes-->
+     <div id="boxes">
+       <div id="box">
+         <h2>Intermediate</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores labore eaque a sequi voluptatibus sunt itaque laborum nihil dolore voluptatem, ducimus vitae libero repellat debitis, veniam minima dolor corporis optio!</p>
+       </div>
+        <div id="box">
+          <h2>Degree</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores labore eaque a sequi voluptatibus sunt itaque laborum nihil dolore voluptatem, ducimus vitae libero repellat debitis, veniam minima dolor corporis optio!</p>
+        </div>
+       <div id="box">
+        <h2>Post Graduation</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores labore eaque a sequi voluptatibus sunt itaque laborum nihil dolore voluptatem, ducimus vitae libero repellat debitis, veniam minima dolor corporis optio!</p>
+       </div>
+     </div>
+</section>
+
+<!--campus section-->
+<section id="campus">
+  <div id="campus-div">
+    <div id="head">
+      <h1>Our Global campus</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    </div>
+<!--boxes-->
+    <div id="boxes">
+      <div id="box">
+        <img src="https://dl.dropbox.com/s/jwsn8pkw32mhg1l/london.png?dl=0" alt="london">
+      </div>
+       <div id="box">
+        <img src="https://dl.dropbox.com/s/rorunw1f93yd6ty/newyork.png?dl=0" alt="newyork">
+       </div>
+      <div id="box">
+        <img src="https://dl.dropbox.com/s/76pbfn3m2wxy9k2/washington.png?dl=0" alt="washington">
+      </div>
+    </div>
+</section>
+
+<!--facilities section-->
+<section class="facilities">
+  <div id="facilities-div">
+    <div id="facilities-head">
+      <h2>Our Facilities</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    </div>
+<!--image section-->
+  <div id="facilities-image">
+     <figure>
+       <img src="https://dl.dropbox.com/s/2mniyjlksobh9uz/library.png?dl=0">
+       <h2>World Class library</h2>
+       <p>Lorem ipsum, dolor sit amet consectetur.</p>
+    </figure>
+     <figure>
+       <img src="https://dl.dropbox.com/s/w6jretefg5h8ehj/basketball.png?dl=0">
+       <h2>Largest Play Ground</h2>
+       <p>Lorem ipsum, dolor sit amet consectetur.</p>
+     </figure>
+   <figure>
+    <img src="https://dl.dropbox.com/s/m44134n8fd428j0/cafeteria.png?dl=0">
+    <h2>Tasty and Healthy Food</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur.</p>
+   </figure>
+  </div>
+</div>
+</section>
+
+<!--student section-->
+<section class="student">
+  <div id="student-div">
+    <div id="student-head">
+      <h2>What Our Student Says</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+<!--box section-->
+    <div id="items">
+      <div id="item">
+        <img src="https://dl.dropbox.com/s/nh82q4lih3aaerv/user1.jpg?dl=0" alt="profle">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque atque numquam ipsa voluptate aspernatur.</p>
+        <h4>Christine Berkley</h4>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star" style="color: white;"></i>
+      </div>
+      <div id="item">
+        <img src="https://dl.dropbox.com/s/ys8ekyqvcx4lxjp/user2.jpg?dl=0" alt="profle">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque atque numquam ipsa voluptate aspernatur.</p>
+        <h4>David Byer</h4>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!--enroll section-->
+<section class="enroll">
+  <div id="enroll-div">
+   <div id="enroll-box">
+     <h1>Enroll For Our Various Online Courses Anyware From The World</h1>
+     <button>
+       <span id="first-span"></span>Contact Us<span></span></button>
+    </div>
+  </div>
+</section>
+
+<!--footer section-->
+<footer>
+  <div id="footer">
+     <h3>About Us</h3>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga repudiandae velit quasi delectus molestias ipsum consectetur culpa. Quis non nam quibusdam explicabo sint incidunt.</p>
+     <div id="icons">
+       <i class="fab fa-facebook-f"></i>
+       <i class="fab fa-twitter"></i>
+       <i class="fab fa-instagram"></i>
+       <i class="fab fa-linkedin-in"></i>
+     </div>
+     <p>made with love by Santhosh</p>
+    </div>
+</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+
+{
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#h{
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("https://dl.dropbox.com/s/btcf9m6n1wrs0ol/banner.png?dl=0");
+    background-position: center;
+    background-size: cover;
+}
+#header_div{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header_div img{
+   width: 10rem;
+   height: 3rem;
+   margin-left: 3%;
+}
+input{
+    text-align: center;
+    
+}
+/*nav*/
+nav{
+    margin-right: 3%;
+    display: flex;
+    flex-direction: row;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    color: white;
+}
+nav ul li{
+    font-family: 'poppins',sans-serif;
+    font-weight: 550;
+    font-size: 18px;
+    padding: 1rem;
+    transition: 1s;
+}
+nav ul li::after{
+    content: "";
+    background-color: red;
+    height: 2px;
+    width: 0%;
+    transition: 800ms;
+    display: block;
+}
+nav ul li:hover::after{
+   width: 100%;
+}
+#align-justify{
+  display: none;
+  color: #fff;
+  font-size: 2rem;
+  margin-top: -1rem;
+  cursor: pointer;
+}
+/*toggle*/
+#toggle ul{
+    background-color: black;
+    color: #fff;
+    width: 0%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: -10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style-type:none;
+    line-height: 5rem;
+    z-index: 1;
+    transition: 1s;
+}
+#toggle ul li{
+    font-family: 'poppins',sans-serif;
+    font-weight: 545;
+    font-size: 18px;
+    padding: 1rem;   
+}
+#toggle ul li::after{
+    content: "";
+    background-color: red;
+    height: 2px;
+    width: 0%;
+    transition: 800ms;
+    display: block;
+}
+#toggle ul li:hover::after{
+    width: 100%;
+}
+#toggle ul #cut{
+    color: #fff;
+    align-self: flex-end;
+    margin-right: 2rem;
+    font-size: 2rem;
+    cursor: pointer;
+}
+/*styles for javascript*/
+.kaatu{
+    color: red;
+    width: 60%;
+}
+/*image*/
+#image{
+    background-size:cover;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#image #o{
+   width: 100%;
+   line-height: 3rem;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+#image #o p{
+    padding: 2rem;
+}
+#image button{
+    padding: 0.3rem 0.7rem;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    border:1px solid #fff;
+    transition: 600ms;
+    font-family:sans-serif;
+    position: relative;
+}
+#image button #first-span{
+    display: inline-block;
+    height: 1px;
+    width: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: -0.9rem;
+}
+#image button span{
+    display: inline-block;
+    height: 1px;
+    width: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    right: -0.9rem;
+}
+#image button:hover{
+    background-color: orangered;
+    border: none; 
+    cursor: pointer;
+}
+span:hover{
+    background-color: orangered;
+}
+/*courses*/
+#courses{
+    width: 100%;
+}
+#courses-div #head{
+    text-align: center;
+    margin-top: 2rem;
+    font-family: sans-serif;
+}
+#courses-div #head p{
+    margin-top: 0.5rem;
+}
+#courses-div #boxes{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 2rem;
+     font-family: sans-serif;
+    
+}
+#courses-div #boxes #box{
+    background-color: #fce16a;
+    color: rgb(31, 15, 15);
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    max-height: 10rem;
+}
+#courses-div #boxes #box p{
+    font-weight: small;
+    opacity: 0.8;
+    margin-top: 1rem;
+    color: rgb(147, 48, 240);
+}
+#courses-div #boxes #box:hover{
+    box-shadow: 1px 1px 10px 1px black ;
+}
+/*campus*/
+#campus #head{
+    text-align: center;
+    margin-top: 2rem;
+    font-family: sans-serif;
+}
+#campus #head p {
+    margin-top: 0.5rem;
+}
+#campus #boxes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+    font-family: sans-serif;
+    width: 100%;
+    height: 40%;
+    margin-top: 5rem;
+}
+#campus #boxes #box img{
+    max-width: 12rem;
+    height: 25em;
+    border-radius: 0.3rem;
+    background-color: red;
+}
+#campus #boxes #box{
+    position: relative;
+    margin-top: 2rem;
+}
+#campus #boxes #box::before{
+   content: "London";
+   width: 100%;
+   height: 0em;
+   background-color: red;
+   opacity: 0.5;
+   position: absolute;
+   transition: 1s;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   opacity: 0;
+   color: white;
+   font-size: 20px;
+   font-family: sans-serif;
+   font-weight:1000;
+}
+#campus #boxes #box:nth-child(1):before{
+   content: "London";
+}
+#campus #boxes #box:nth-child(2):before{
+    content: "New York";
+}
+#campus #boxes #box:nth-child(3):before{
+    content: "Washington";
+ }
+#campus #boxes #box:hover::before{
+    height: 100%;
+    opacity: 0.5;
+}
+/*facilities section*/
+
+#facilities-head{
+    text-align: center;
+    margin-top: 7rem;
+    font-family: sans-serif;
+}
+#facilities-head p {
+    margin-top: 0.5rem;
+}
+#facilities-image{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:5rem;
+    flex-direction: row;
+}
+#facilities-image figure h2{
+   margin-top: 0.5rem;
+   font-family:sans-serif;
+   font-size:x-large;
+}
+#facilities-image figure p{
+    margin-top: 0.5rem;
+}
+#facilities-image figure img{
+    max-width: 16rem;
+    border-radius: 7px;
+}
+/*student*/
+#student-div #student-head{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 7rem;
+    font-family: sans-serif;
+}
+
+#student-div #items{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+}
+#student-div #items #item{
+   background-color: #fce16a;
+   width: 40%;
+   border-radius: 5px;
+   margin-top: 3rem;
+   padding: 1.3rem;
+   font-family: sans-serif;
+}
+#student-div #items #item img{
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+#student-div #items #item p{
+    margin-top: 0.5rem;
+    opacity: 0.9;
+ }
+#student-div #items #item h4{
+  padding: 1rem 0 0 0 ;
+}
+i{
+    color: rgb(255, 115, 0);
+    padding-top: 0.9rem;
+}
+/*enroll*/
+#enroll-div{
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 20rem;
+    margin: 0 auto;
+    margin-top: 7rem;
+}
+#enroll-div #enroll-box{
+    background: url("https://dl.dropbox.com/s/tao5419y3q2j6n8/banner2.jpg?dl=0");
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+#enroll-div #enroll-box::after{
+    content: "";
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+#enroll-div #enroll-box h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+#enroll-div #enroll-box button{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0.3rem 0.7rem;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    border:1px solid #fff;
+    transition: 600ms;
+    font-family:sans-serif;
+}
+#enroll-div #enroll-box button #first-span{
+    display: inline-block;
+    height: 1px;
+    width: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: -0.9rem;
+}
+#enroll-div #enroll-box button span{
+    display: inline-block;
+    height: 1px;
+    width: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    right: -0.9rem;
+}
+#enroll-div #enroll-box button:hover{
+    background: orangered;
+    border: none;
+}
+/*footer*/
+#footer{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'poppins',sans-serif;
+    letter-spacing: -1%;
+}
+#footer h3{
+    padding: 1.2rem;
+}
+#footer p{
+    padding: 1.5rem;
+    font-family: poppins;
+    text-align: center;
+}
+#footer #icons i{
+   letter-spacing: 1rem;
+   cursor: pointer;
+}
+/*media queries*/
+/*navigation*/
+@media only screen and (max-width:743px){
+    nav ul li{
+        display: none;
+    }
+    #align-justify{
+        display: block;
+    }
+}
+/*for courses boxes*/
+@media only screen and (max-width:845px){
+    #courses-div #boxes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin:0 auto;
+   }
+   #facilities-image{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+   #facilities-image figure{
+       margin-top: 3rem;
+       text-align:center ;
+   }
+  
+}
+/*for campus images*/
+@media only screen and (max-width:658px){
+    #campus-div #boxes{
+        flex-direction: column;
+        align-items: center;
+   }
+/*for student*/
+@media only screen and (max-width:658px){
+    #student-div #items{
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+   }
+}
+}
+
+
+
+
+
+/*colors
+    image background rgba(4,9,30,0.7);
+    #fff3f3
+    places hover color rgba(226,0,0,0.7)*/
+    
+    function kaatu(){
+let ham_icon = document.getElementById("align-justify");
+let menu = document.querySelector("#toggle ul");
+let cut_icon = document.getElementById("cut");
+
+    menu.style.width="60%";
+    ham_icon.style.opacity="0";
+    
+}
+    
+    
+function muudu(){
+let ham_icon = document.getElementById("align-justify");
+let menu = document.querySelector("#toggle ul");
+let cut_icon = document.getElementById("cut");
+
+  menu.style.width="0";
+  ham_icon.style.opacity="1"; 
+}
+
